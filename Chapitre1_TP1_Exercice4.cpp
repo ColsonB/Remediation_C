@@ -11,7 +11,7 @@ int main()
 
     while (N < 1)
     {
-        printf("Entrez un chiffre superieur ou egal a 1 \n");
+        printf("Entrez un chiffre supérieur ou égal à 1 \n");
         scanf("%d", &N);
     }
     while (somme < N)

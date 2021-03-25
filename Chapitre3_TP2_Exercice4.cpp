@@ -13,9 +13,9 @@ void main(int argc, char argv[])
 
 	printf("Tableau à trier par ordre croissant\n");
 	lire(tab);
-	printf("\nValeurs du tableau  \n");
+	printf("\nValeurs du tableau\n");
 	affiche(tab);
-	printf("\nValeur du tableau trie par ordre croissant  \n");
+	printf("\nValeur du tableau trie par ordre croissant\n");
 	indice_min(tab);
 	getch();
 }

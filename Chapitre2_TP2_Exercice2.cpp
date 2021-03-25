@@ -15,7 +15,7 @@ int main()
 
     do
     {
-        printf("mettre une note:\n");
+        printf("Mettre une note:\n");
         scanf("%f", &note);
         tot = tot + note;
         compteur = compteur + 1;
@@ -25,11 +25,11 @@ int main()
     {
         tot = tot - note;
         tot = tot / (compteur - 1);
-        printf("note moyenne :%.2f\n", tot);
+        printf("Note moyenne :%.2f\n", tot);
     }
     else
     {
-        printf("note non  valide !\n");
+        printf("Note non valide !\n");
     }
 
     getch();

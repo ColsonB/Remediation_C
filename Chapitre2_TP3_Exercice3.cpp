@@ -19,7 +19,7 @@ int main()
 {
     char Tab[Max];
     int x = 0, i, j, k, repete = 0;
-    printf("entrez une chaine de caracteres :\n");
+    printf("Entrez une chaine de caractéres :\n");
     lirechaine(Tab);
 
     for (i = 0; i < strlen(Tab); i++)
